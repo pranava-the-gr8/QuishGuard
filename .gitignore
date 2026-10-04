@@ -1,33 +1,51 @@
-# Dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# Testing
-/coverage
-
-# Next.js
-/.next/
-/out/
-
-# Production
-/build
-
-# Misc
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.vscode/
+.idea/
 .DS_Store
-*.pem
+Thumbs.db
+temp_*
+*.tmp
+.pytest_cache/
+*.log
+test_*.py
+*_test.py
+ml/dataset/
+ml/feature_extractor.py
+ml/train_model.py
+ml/test_model.py
+*.pkl
+*.png
 
-# Debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Python backend
+.env
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
 
-# Local Env Files
-.env*.local
+# Local development and tests
+test_*.py
+*_test.py
+backend/2
 
-# Vercel
-.vercel
+# ML development files
+backend/ml/
+*.pkl
 
-# TypeScript
-*.tsbuildinfo
-next-env.d.ts
+# Local images / temporary files
+*.png
+*.jpg
+*.jpeg
+temp_*
+*.tmp
+
+# Editor / IDE
+.vscode/
+.idea/
